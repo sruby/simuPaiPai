@@ -33,3 +33,7 @@ const server = app.listen(7799, '0.0.0.0', () => {
   const address = server.address();
   console.log(`Server listening on http://${ address.address }:${ address.port }`);
 });
+
+module.exports = {
+  decryptor
+};
